@@ -1,0 +1,124 @@
+/* Figma: uMAiJKNtxrWtqdLfDukKrS · Primitive Color / Semantic Color (Light).
+ * Preserve Figma WEB code syntax and primitive → semantic aliases.
+ * Update colors here; component styles reference semantic variables.
+ */
+:root {
+  /* Primitive Color */
+  --primitives-color-primary-100: #ffe8ab;
+  --primitives-color-primary-200: #ffdd97;
+  --primitives-color-primary-300: #fed383;
+  --primitives-color-primary-400: #fec86f;
+  --primitives-color-primary-500: #fdbe5b;
+  --primitives-color-primary-600: #fdb347;
+  --primitives-color-primary-700: #fca933;
+  --primitives-color-primary-800: #fc9e1f;
+  --primitives-color-secondary-100: #7ad2a6;
+  --primitives-color-secondary-200: #69be93;
+  --primitives-color-secondary-300: #58ab81;
+  --primitives-color-secondary-400: #47976e;
+  --primitives-color-secondary-500: #37835b;
+  --primitives-color-secondary-600: #266f48;
+  --primitives-color-secondary-700: #155c36;
+  --primitives-color-secondary-800: #044823;
+  --primitives-color-blue-100: #eff6ff;
+  --primitives-color-blue-200: #dbeafe;
+  --primitives-color-blue-300: #bfdbfe;
+  --primitives-color-blue-400: #93c5fd;
+  --primitives-color-blue-500: #60a5fa;
+  --primitives-color-blue-600: #3b82f6;
+  --primitives-color-blue-700: #1d4ed8;
+  --primitives-color-blue-800: #1e3a8a;
+  --primitives-color-coral-100: #fff2ee;
+  --primitives-color-coral-200: #ffe2d8;
+  --primitives-color-coral-300: #ffc7b5;
+  --primitives-color-coral-400: #ffa58a;
+  --primitives-color-coral-500: #f77c60;
+  --primitives-color-coral-600: #e35b43;
+  --primitives-color-coral-700: #b83c2b;
+  --primitives-color-coral-800: #862a20;
+  --primitives-color-violet-100: #f5f1fc;
+  --primitives-color-violet-200: #eae0f7;
+  --primitives-color-violet-300: #d6c4ee;
+  --primitives-color-violet-400: #bca0df;
+  --primitives-color-violet-500: #9e7acc;
+  --primitives-color-violet-600: #8058b3;
+  --primitives-color-violet-700: #634094;
+  --primitives-color-violet-800: #472c70;
+  --primitives-color-gray-100: #fcfcf9;
+  --primitives-color-gray-200: #f7f7f2;
+  --primitives-color-gray-300: #efefe7;
+  --primitives-color-gray-400: #e2e3d9;
+  --primitives-color-gray-500: #cdd0c3;
+  --primitives-color-gray-600: #afb3a5;
+  --primitives-color-gray-700: #8f9585;
+  --primitives-color-gray-800: #697260;
+  --primitives-color-gray-900: #56604f;
+  --primitives-color-gray-1000: #3d4737;
+  --primitives-color-gray-1100: #293224;
+  --primitives-color-gray-1200: #182116;
+  --primitives-color-white: #ffffff;
+  --primitives-color-black: #000000;
+  --color-lime-100: #ffffbf;
+  --color-lime-200: #f9ffa7;
+  --color-lime-300: #f2ff8e;
+  --color-lime-400: #ecff76;
+  --color-lime-500: #e5ff5e;
+  --color-lime-600: #dfff46;
+  --color-lime-700: #d8ff2d;
+  --color-lime-800: #d2ff15;
+
+  /* Semantic Color */
+  --semantic-color-color-brand-primary-main: var(--primitives-color-primary-600);
+  --semantic-color-color-brand-primary-sub: var(--primitives-color-primary-100);
+  --semantic-color-color-brand-secondary-main: var(--primitives-color-secondary-100);
+  --semantic-color-color-brand-secondary-sub: var(--primitives-color-secondary-800);
+  --semantic-color-color-text-primary: var(--primitives-color-gray-1200);
+  --semantic-color-color-text-secondary: var(--primitives-color-gray-1000);
+  --semantic-color-color-text-tertiary: var(--primitives-color-gray-900);
+  --semantic-color-color-text-inverse: var(--primitives-color-white);
+  --semantic-color-color-text-on-primary: var(--primitives-color-gray-1200);
+  --semantic-color-color-text-on-secondary: var(--primitives-color-secondary-800);
+  --semantic-color-color-text-on-secondary-sub: var(--primitives-color-white);
+  --semantic-color-color-text-link: var(--primitives-color-blue-700);
+  --semantic-color-color-background-canvas: var(--primitives-color-gray-100);
+  --semantic-color-color-surface-default: var(--primitives-color-white);
+  --semantic-color-color-surface-subtle: var(--primitives-color-gray-200);
+  --semantic-color-color-surface-raised: var(--primitives-color-white);
+  --semantic-color-color-surface-inverse: var(--primitives-color-gray-1100);
+  --semantic-color-color-border-subtle: var(--primitives-color-gray-400);
+  --semantic-color-color-border-default: var(--primitives-color-gray-800);
+  --semantic-color-color-border-strong: var(--primitives-color-gray-900);
+  --semantic-color-color-status-info-background: var(--primitives-color-blue-100);
+  --semantic-color-color-status-info-foreground: var(--primitives-color-blue-800);
+  --semantic-color-color-status-success-background: var(--primitives-color-secondary-100);
+  --semantic-color-color-status-success-foreground: var(--primitives-color-secondary-800);
+  --semantic-color-color-status-warning-background: var(--primitives-color-primary-100);
+  --semantic-color-color-status-warning-foreground: var(--primitives-color-gray-1200);
+  --semantic-color-color-status-error-background: var(--primitives-color-coral-100);
+  --semantic-color-color-status-error-foreground: var(--primitives-color-coral-800);
+  --semantic-color-color-status-accent-background: var(--primitives-color-violet-100);
+  --semantic-color-color-status-accent-foreground: var(--primitives-color-violet-800);
+
+  /* SAIRO / Card material */
+  --sairo-card-shadow: #1821162e;
+
+  /* App-only roles, separate from Figma variables. */
+  --app-color-stage-background: #e9eae4;
+  --app-color-transparent: transparent;
+  --app-color-focus-ring: var(--semantic-color-color-border-strong);
+  --app-color-scrim: color-mix(in srgb, var(--semantic-color-color-text-primary) 40%, transparent);
+  --app-color-shadow-subtle: color-mix(
+    in srgb,
+    var(--semantic-color-color-text-primary) 5%,
+    transparent
+  );
+  --app-color-shadow-page: color-mix(
+    in srgb,
+    var(--semantic-color-color-text-primary) 7%,
+    transparent
+  );
+
+  --font-body: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  --radius: 12px;
+  --space-page: 24px;
+}
