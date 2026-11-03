@@ -1,0 +1,42 @@
+[
+  {
+    "id": "culture-class",
+    "host": "경자",
+    "postedAt": "오전 9:50",
+    "title": "구청 문화강좌 신청 좀\n도와주실 분 계실까요?",
+    "neighbors": 8,
+    "photo": "1fead.png"
+  },
+  {
+    "id": "phone-photos",
+    "host": "영호",
+    "postedAt": "오전 8:35",
+    "title": "휴대폰 사진을 정리하다가\n중요한 사진까지 지울까 걱정돼요",
+    "neighbors": 3,
+    "photo": "9bb34.png"
+  },
+  {
+    "id": "train-ticket",
+    "host": "혜란",
+    "postedAt": "어제 오후 6:20",
+    "title": "기차 예매부터 승차권 확인까지\n한번 같이 해보고 싶어요",
+    "neighbors": 6,
+    "photo": "8a80f.png"
+  },
+  {
+    "id": "hospital-appointment",
+    "host": "상철",
+    "postedAt": "어제 오후 3:10",
+    "title": "병원 앱에서 진료 예약하는 법,\n옆에서 알려주실 분 계세요?",
+    "neighbors": 4,
+    "photo": "e4c41.png"
+  },
+  {
+    "id": "parcel-return",
+    "host": "미경",
+    "postedAt": "10월 30일",
+    "title": "무인 택배함에서 반품 보내기,\n한번 같이 해보고 싶어요",
+    "neighbors": 2,
+    "photo": "a4128.png"
+  }
+]
